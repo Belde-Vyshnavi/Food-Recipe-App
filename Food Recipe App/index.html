@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="Style.css"> <!-- Corrected typo: rel="styleSheet" to rel="stylesheet" -->
+</head>
+<body>
+    <header id="header">
+        <h1 id="title">Food Recipe App</h1>
+        <div class="search">
+            <input type="text" placeholder="Enter the food item to search" id="searchbox">
+            <button type="submit" id="searchbtn">Search</button>
+        </div>
+        <!--        <div class="search">
+            <button type="submit" id="searchbtn">Search</button>
+        </div>
+        -->
+        <div class="navElements">
+        <button id="btn">Home</button>
+        <button id="likePage">Like Page</button>
+        </div>
+    </header>
+   
+    <main id="body">
+        <div id="recipe-details" class="recipe-details"></div>
+        <div id="likedItemsContainer" class="likedItemsContainer"></div> <!-- Moved here to display liked recipes in the main section -->
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="viewInfo.js"></script>
+    <script src="likePage.js"></script>
+    <script src="recipe.js"></script>
+   
+    
+</body>
+</html>

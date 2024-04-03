@@ -1,0 +1,229 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+#header{
+    /*background-color: rgb(71, 48, 71);*/
+    
+    background-color: #e84393;
+background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+}
+#title{
+    color: white;
+}
+
+#bottom{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.search{
+    display: flex;
+    height: 60px;
+
+}
+
+#searchbox,#searchbtn{
+    margin-right: 10px;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#searchbox{
+    border-radius: 10px;
+}
+#searchbtn{
+    border-radius: 50%;
+}
+
+.navElements{
+    padding-right: 10px;
+    display: flex;
+    align-self: flex-start;  
+}
+#top{
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+/*
+#body{
+    background-color: rgb(219, 130, 198);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+*/
+
+#searchbtn{
+    cursor: pointer;
+}
+#body {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust minmax() values as needed */
+    gap: 20px; /* Adjust the gap between cards */
+}
+
+section{
+    height: 200px;
+    width: 200px;
+    border:5px solid black;
+}
+
+.recipe{
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.recipe{
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(122.3deg, rgb(111, 71, 133) 14.6%, rgb(232, 129, 166) 29.6%, rgb(237, 237, 183) 42.1%, rgb(244, 166, 215) 56.7%, rgb(154, 219, 232) 68.7%, rgb(238, 226, 159) 84.8%);
+    z-index: 1;
+}
+
+.recipe img {
+    width: 100%; /* Ensure images fill the container */
+    height: auto;
+    border-radius: 10px;
+}
+
+.recipe h2{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.recipe-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+#home{
+    display: flex;
+    align-self: flex-start; 
+}
+
+#likePage{
+    background-color: black;
+    height: 40px;
+    width: 70px;
+    color: white;
+    text-align: center;
+    cursor:pointer;
+}
+#btn{
+    background-color: black;
+    height: 40px;
+    width: 70px;
+    color: white;
+    text-align: center;
+    cursor:pointer;
+}
+
+#title{
+    margin-top: 5px;;
+}
+main{
+    background: linear-gradient(78.1deg, rgb(177, 14, 236) 5.5%, rgb(255, 19, 15) 92.8%);
+}
+
+.recipe button,#likedItemsContainer button{
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.recipee{
+    z-index: 3;
+    position: absolute;
+}
+
+
+
+
+.recipea{
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(122.3deg, rgb(111, 71, 133) 14.6%, rgb(232, 129, 166) 29.6%, rgb(237, 237, 183) 42.1%, rgb(244, 166, 215) 56.7%, rgb(154, 219, 232) 68.7%, rgb(238, 226, 159) 84.8%);
+    z-index: 1;
+}
+
+.recipea img {
+    width: 100%; /* Ensure images fill the container */
+    height: auto;
+    border-radius: 10px;
+}
+
+.recipea h2{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.recipea-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.recipea button{
+    margin-left: 60px;
+}
+
+
+
+.recipee{
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.recipee{
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(122.3deg, rgb(111, 71, 133) 14.6%, rgb(232, 129, 166) 29.6%, rgb(237, 237, 183) 42.1%, rgb(244, 166, 215) 56.7%, rgb(154, 219, 232) 68.7%, rgb(238, 226, 159) 84.8%);
+    width: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80%;
+}
+
+.recipee img {
+    width: 200px; /* Ensure images fill the container */
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.recipee h2{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.recipee-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
